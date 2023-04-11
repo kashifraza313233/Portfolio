@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    background-color: rgb(194, 187, 187);
+    width: 410px; 
+    height: 100vh;
+    font-family: 'Open Sans', sans-serif;
+}
+/* .container img{
+    width: 5rem;
+    height: 5rem;
+} */
+.container nav{
+    padding: 45px;
+}
+.container nav li{
+    list-style: none;
+    font-size: 20px;
+    padding: 33px 0;
+}
+.container nav li a{
+    text-decoration: none;
+    color: black;
+}
+.main{
+    /* background-color: yellow; */
+    width: 100vw;
+}
+.MainContainer{
+    display: flex;
+}
+.infocontainer{
+  /* background-color: rgb(247, 14, 111); */
+  height: 60vh;
+  width: 80vw;
+  margin: 100px auto;
+  display: flex;
+  justify-content: space-around;
+}
+.devinfo{
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+.Hello{
+    font-size: 79px;
+}
+.name{
+    font-size: 90px;
+    font-weight: bold;
+}
+.about{
+    font-size: 50px;
+ 
+}
+.summary{
+    margin-top: 10px;
+}
+.buttons button{
+    width: 15vw;
+    height: 5vh;
+    background-color: dodgerblue;
+    color: white;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 15px;
+    margin: 0 5px;
+    cursor: pointer;  
+}
+.buttons button:hover{
+    background-color: white;
+    color: dodgerblue;
+    border-color: dodgerblue;
+}
+.buttons{
+    margin: 34px;
+}
+.devimg img{
+    margin: 90px 0;
+   height: 30vh;
+   border-radius: 100px;
+   
+}
