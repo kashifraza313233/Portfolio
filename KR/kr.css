@@ -84,3 +84,38 @@
    border-radius: 100px;
    
 }
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    margin: 20vh auto;
+
+  }
+  
+  label {
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  
+  input,
+  textarea {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: dodgerblue;
+    color: white;
+  }
+  

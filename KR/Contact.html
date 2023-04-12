@@ -17,26 +17,24 @@
           <ul>
             <li><a href="index.html">Home</a></li>
             <li><a href="About.html">About</a></li>
-            <li><a href="Contact.html">Contact Me</a></li>
+            <li><a href="Contact.html">Contact</a></li>
             <li><a href="CV.html">CV</a></li>
           </ul>
         </nav>
       </div>
       <div class="main">
-        <div class="infocontainer">
-          <div class="devinfo">
-            <div class="Hello">Hi I am</div>
-            <div class="name">Kashif Raza</div>
-            <div class="about">.NET Developer</div>
-            <div class="summary">.NET developer with good OOP Concepts and interested to learn new skills in the IT Field.</div>
-            <div class="buttons">
-              <button class="Download" title="Download">Download CV</button>
-              <button class="contact" title="Contact">Contact Me</button>
-            </div>
-          </div>
-          <div class="devimg">
-            <img src="images&logo/image.png" alt="Kashif Raza" />
-          </div>
+        <form>
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required>
+        
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required>
+        
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" required></textarea>
+        
+          <button type="submit">Send</button>
+        </form>
         </div>
       </div>
     </div>
