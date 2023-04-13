@@ -5,7 +5,7 @@
 }
 .container{
     background-color: rgb(194, 187, 187);
-    width: 410px; 
+    width: 250px; 
     height: 100vh;
     font-family: 'Open Sans', sans-serif;
 }
@@ -106,16 +106,19 @@ form {
   }
   
   button {
-    background-color: #4CAF50;
-    color: white;
+    background-color: dodgerblue;
+    color:white;
     padding: 10px 20px;
     border: none;
     border-radius: 20px;
     cursor: pointer;
+    font-size :20px;
+    font-weight: bold;
   }
   
   button:hover {
-    background-color: dodgerblue;
-    color: white;
+    background-color: white;
+    color: dodgerblue;
+    border-color: dodgerblue;    
   }
   
